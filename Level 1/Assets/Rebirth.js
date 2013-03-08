@@ -12,7 +12,7 @@ function Update() {
 		}
 	
 		Player[0].SetActive(true);
-		Player[0].transformation.position = obj.transformation.position;
+		//Player[0].transformation.position = obj.transformation.position;
 	}
 
 }

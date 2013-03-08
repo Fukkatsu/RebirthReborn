@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{1753851C-AE59-909A-15AB-E3FFE34BC5A0}</ProjectGuid>
+	<ProjectGuid>{18276C43-33F0-78F1-1AD8-A3E8B19845DC}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -72,7 +72,6 @@
      <Compile Include="Assets\3D Platformer Tutorial\Scripts\Player\ThirdPersonPushBodies.js" />
      <Compile Include="Assets\3D Platformer Tutorial\Scripts\Player\ThirdPersonStatus.js" />
      <Compile Include="Assets\3D Platformer Tutorial\Scripts\WaterCollision.js" />
-     <Compile Include="Assets\Age.js" />
      <Compile Include="Assets\Rebirth.js" />
      <Compile Include="Assets\Standard Assets (Mobile)\Scripts\CameraRelativeControl.js" />
      <Compile Include="Assets\Standard Assets (Mobile)\Scripts\FirstPersonControl.js" />
@@ -112,9 +111,9 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{79391AC5-8752-B4CC-F33F-BB9EB1094377}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+      <Project>{0CE38E5D-5B8C-6CC0-2F57-14F74A77F030}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
-      <Project>{C62E21C4-7CD8-5581-1E66-AC8E36219989}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
+      <Project>{0785E62E-89CE-0FCC-8AE3-749788577E21}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
